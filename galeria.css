@@ -1,0 +1,36 @@
+/* Galeria */
+.galeria {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.galeria h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    border-radius: 10px;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+    filter: brightness(70%);
+}

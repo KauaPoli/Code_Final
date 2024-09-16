@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo - LuxWatch</title>
+    <link rel="stylesheet" href="welcome.css">
+    <style>
+        /* Estilo para a mensagem de boas-vindas */
+        .welcome-message {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .welcome-message div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: auto;
+        }
+
+        .welcome-message h2 {
+            margin-bottom: 10px;
+        }
+
+        .welcome-message button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .welcome-message button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>LuxWatch</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Coleção</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="login.html" class="btn-login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Mensagem de Boas-Vindas -->
+    <div class="welcome-message">
+        <div>
+            <h2>Bem-vindo!</h2>
+            <p>Você está logado. Clique abaixo para voltar à página principal.</p>
+            <a href="index.html"><button>Voltar para a Página Principal</button></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="about">
+                <h3>Sobre a LuxWatch</h3>
+                <p>Somos uma loja especializada em relógios de luxo, oferecendo as marcas mais prestigiadas do mercado.</p>
+            </div>
+            <div class="quick-links">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Suporte</a></li>
+                </ul>
+            </div>
+            <div class="socials">
+                <h3>Redes Sociais</h3>
+                <ul>
+                    <li><a href="#"><img src="face.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="inta.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="twi.png" alt="Twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 LuxWatch. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
